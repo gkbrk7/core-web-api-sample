@@ -1,0 +1,10 @@
+dotnet tool install --global dotnet-ef => install dotnet entity framework tool
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer => Add SqlServer package into project
+dotnet restore => reload packages/dependencies
+dotnet run => Run and build the project
+dotnet build => build h-the project
+dotnet new webapi => Create webapi template
+dotnet add package Microsoft.EntityFrameworkCore.Design => Add Design package into project
+
+dotnet ef migrations add InitialCreate => Add migration. Type -h at the end of every command to get information about it
+dotnet ef database update => update database
