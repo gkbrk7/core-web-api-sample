@@ -31,6 +31,7 @@ namespace dotnet_rpg
         {
             services.AddDbContext<DataContext>(option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<ICharacterService, CharacterService>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddAutoMapper(typeof(Startup)); // Add auto mapper 
 
             services.AddControllers();

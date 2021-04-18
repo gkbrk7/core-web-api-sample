@@ -6,5 +6,7 @@ dotnet build => build h-the project
 dotnet new webapi => Create webapi template
 dotnet add package Microsoft.EntityFrameworkCore.Design => Add Design package into project
 
+
 dotnet ef migrations add InitialCreate => Add migration. Type -h at the end of every command to get information about it
 dotnet ef database update => update database
+dotnet watch run => dynamically seeks the code changes and restart the program
