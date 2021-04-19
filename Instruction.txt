@@ -10,3 +10,5 @@ dotnet add package Microsoft.EntityFrameworkCore.Design => Add Design package in
 dotnet ef migrations add InitialCreate => Add migration. Type -h at the end of every command to get information about it
 dotnet ef database update => update database
 dotnet watch run => dynamically seeks the code changes and restart the program
+
+To implement security like JWT install these 3 packages from nuget : Microsoft.IdentityModel.Tokens, System.IdentityModel.Tokens.Jwt, Microsoft.AspNetCore.Authentication.JwtBearer
